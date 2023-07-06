@@ -1,6 +1,6 @@
 # John Vilela
 
-Software Engineer based in São Paulo, Brazil.
+Frontend Developer based in São Paulo, Brazil.
 
 DX, UX/UI and Problem Solving are my favorite topics.
 
