@@ -1,6 +1,6 @@
 import './globals.css'
 import { VT323 } from 'next/font/google'
-
+import { Analytics } from '@vercel/analytics/react'
 const mainFont = VT323({ subsets: ['latin'], weight: ['400'] })
 
 export const metadata = {
@@ -15,7 +15,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={mainFont.className}>{children}</body>
+      <body className={mainFont.className}>
+        {children}
+        <Analytics />
+      </body>
     </html>
   )
 }
