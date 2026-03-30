@@ -1,0 +1,30 @@
+[
+  {
+    "company": "TechCorp Inc.",
+    "role": "Senior Software Engineer",
+    "startDate": "2022-03",
+    "endDate": "present",
+    "description": "Leading frontend architecture and developing high-performance web applications. Driving adoption of modern frameworks and establishing best practices across the engineering team."
+  },
+  {
+    "company": "Digital Solutions Ltd.",
+    "role": "Full Stack Developer",
+    "startDate": "2019-06",
+    "endDate": "2022-02",
+    "description": "Built and maintained scalable web applications serving thousands of daily users. Implemented CI/CD pipelines and improved deployment workflows, reducing release cycles by 40%."
+  },
+  {
+    "company": "StartupHub",
+    "role": "Frontend Developer",
+    "startDate": "2017-01",
+    "endDate": "2019-05",
+    "description": "Developed responsive user interfaces for multiple client projects. Introduced component-based architecture and automated testing, improving code reliability and team velocity."
+  },
+  {
+    "company": "WebAgency Co.",
+    "role": "Junior Developer",
+    "startDate": "2015-03",
+    "endDate": "2016-12",
+    "description": "Created websites and web applications for small to medium businesses. Worked closely with design teams to deliver pixel-perfect implementations within tight deadlines."
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Cloud Dashboard",
+    "year": 2025,
+    "description": "Real-time cloud infrastructure monitoring dashboard with interactive metrics visualization and alerting system.",
+    "techStack": ["Next.js", "TypeScript", "D3.js", "WebSocket"]
+  },
+  {
+    "name": "DevFlow CLI",
+    "year": 2024,
+    "description": "Command-line tool for automating development workflows, including project scaffolding, code generation, and deployment pipelines.",
+    "techStack": ["Node.js", "TypeScript", "Commander.js"]
+  },
+  {
+    "name": "Marketplace Platform",
+    "year": 2023,
+    "description": "Full-featured e-commerce marketplace with real-time inventory management, payment processing, and seller analytics.",
+    "techStack": ["React", "Node.js", "PostgreSQL", "Stripe"]
+  },
+  {
+    "name": "TaskBoard",
+    "year": 2021,
+    "description": "Collaborative project management tool with drag-and-drop kanban boards, real-time updates, and team workspaces.",
+    "techStack": ["React", "Firebase", "Tailwind CSS"]
+  },
+  {
+    "name": "HealthTrack API",
+    "year": 2020,
+    "description": "RESTful API for health and fitness tracking applications with data aggregation from multiple wearable devices.",
+    "techStack": ["Node.js", "Express", "MongoDB", "JWT"]
+  },
+  {
+    "name": "ChatConnect",
+    "year": 2018,
+    "description": "Real-time messaging application with group chats, file sharing, and end-to-end encryption.",
+    "techStack": ["React", "Socket.io", "Redis", "Node.js"]
+  },
+  {
+    "name": "PhotoGallery CMS",
+    "year": 2016,
+    "description": "Content management system for photographers with image optimization, portfolio templates, and client proofing.",
+    "techStack": ["PHP", "Laravel", "MySQL", "jQuery"]
+  },
+  {
+    "name": "Budget Tracker",
+    "year": 2014,
+    "description": "Personal finance management application with expense categorization, budget planning, and visual reports.",
+    "techStack": ["AngularJS", "Node.js", "MongoDB"]
+  },
+  {
+    "name": "Blog Engine",
+    "year": 2013,
+    "description": "Lightweight blogging platform with markdown support, RSS feeds, and a custom templating engine.",
+    "techStack": ["Python", "Flask", "SQLite", "Bootstrap"]
+  }
+]
