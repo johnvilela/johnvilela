@@ -7,11 +7,11 @@ export const metadata: Metadata = {
 };
 
 export default function ProjectsPage() {
-  const projects = (projectsData as ProjectEntry[]).sort(
-    (a, b) => b.year - a.year,
+  const projects = (projectsData as ProjectEntry[]).sort((a, b) =>
+    b.startDate.localeCompare(a.startDate),
   );
 
-  let lastYear = 0;
+  let lastYear = "";
 
   return (
     <div className="flex flex-col gap-4">
@@ -26,8 +26,9 @@ export default function ProjectsPage() {
 
       <div className="flex flex-col">
         {projects.map((project, index) => {
-          const showYear = project.year !== lastYear;
-          lastYear = project.year;
+          const year = project.startDate.slice(0, 4);
+          const showYear = year !== lastYear;
+          lastYear = year;
 
           return (
             // biome-ignore lint/suspicious/noArrayIndexKey: Static data
@@ -35,7 +36,7 @@ export default function ProjectsPage() {
               {showYear && (
                 <div className="flex items-center gap-2 mt-4 mb-2">
                   <span className="text-amber-bright text-glow-strong text-lg">
-                    [{project.year}]
+                    [{year}]
                   </span>
                   <span className="text-amber-dim flex-1 overflow-hidden whitespace-nowrap">
                     &#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;
@@ -49,8 +50,13 @@ export default function ProjectsPage() {
                     &#9500;&#9472;
                   </div>
                   <div className="pl-4 sm:pl-6">
-                    <div className="text-amber-bright text-glow">
-                      {project.name}
+                    <div className="flex flex-col sm:flex-row sm:justify-between sm:items-baseline gap-1">
+                      <div className="text-amber-bright text-glow">
+                        {project.name}
+                      </div>
+                      <span className="text-amber-dim text-sm">
+                        [{project.startDate} → {project.endDate}]
+                      </span>
                     </div>
                     <p className="text-amber mt-1">{project.description}</p>
                     <div className="flex flex-wrap gap-2 mt-2">

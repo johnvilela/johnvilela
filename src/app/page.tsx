@@ -5,7 +5,7 @@ export default function Home() {
     <div className="flex flex-col gap-6">
       <div className="border border-amber-dim p-4 sm:p-6 flex flex-col items-center gap-2 overflow-hidden">
         <pre className="text-amber-bright text-glow-strong leading-[1.1] text-[0.45rem] sm:text-[0.65rem] md:text-sm">
-{`     ██╗ ██████╗ ██╗  ██╗███╗   ██╗
+          {`     ██╗ ██████╗ ██╗  ██╗███╗   ██╗
      ██║██╔═══██╗██║  ██║████╗  ██║
      ██║██║   ██║███████║██╔██╗ ██║
 ██   ██║██║   ██║██╔══██║██║╚██╗██║
@@ -13,7 +13,7 @@ export default function Home() {
  ╚════╝  ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═══╝`}
         </pre>
         <pre className="text-amber-bright text-glow-strong leading-[1.1] text-[0.35rem] sm:text-[0.55rem] md:text-[0.7rem]">
-{`██╗   ██╗██╗██╗     ███████╗██╗      █████╗
+          {`██╗   ██╗██╗██╗     ███████╗██╗      █████╗
 ██║   ██║██║██║     ██╔════╝██║     ██╔══██╗
 ╚██╗ ██╔╝██║██║     █████╗  ██║     ███████║
  ╚████╔╝ ██║██║     ██╔══╝  ██║     ██╔══██║
@@ -27,18 +27,17 @@ export default function Home() {
 
       <TerminalBox title="ABOUT">
         <p className="text-amber">
-          Welcome to my corner of the internet. I am a software engineer
-          passionate about building elegant solutions to complex problems.
-          With years of experience across the full stack, I specialize in
-          crafting performant web applications and developer tools that
-          make a difference.
+          Started young, fell in love with tech, never looked back. 12+ years
+          later I am still chasing the same thing: using technology to optimize
+          real-life flows &mdash; internal platforms, automation,
+          business-critical tools.
         </p>
         <br />
         <p className="text-amber-dim">
-          When I&apos;m not writing code, you can find me exploring new
-          technologies, contributing to open source, or diving deep into
-          system architecture. I believe in clean code, continuous
-          learning, and the power of the terminal.
+          Currently building on Embraer&apos;s enterprise e-commerce platform at
+          GSW Software. Stack lives mostly around React, Node, Next.js,
+          PostgreSQL, and MongoDB. Lately falling in love with AI all over again
+          &mdash; without ever letting go of the code foundations.
         </p>
       </TerminalBox>
 
@@ -46,21 +45,11 @@ export default function Home() {
         <div className="flex flex-wrap gap-4">
           <SocialLink
             label="LINKEDIN"
-            href="https://linkedin.com/in/placeholder"
+            href="https://linkedin.com/in/johnvilela77"
           />
-          <SocialLink
-            label="GITHUB"
-            href="https://github.com/placeholder"
-          />
-          <SocialLink
-            label="X"
-            href="https://x.com/placeholder"
-          />
-          <SocialLink
-            label="DOWNLOAD CV"
-            href="/cv.pdf"
-            download
-          />
+          <SocialLink label="GITHUB" href="https://github.com/johnvilela77" />
+          <SocialLink label="EMAIL" href="mailto:johnvvilela@gmail.com" />
+          <SocialLink label="DOWNLOAD CV" href="/cv.pdf" download />
         </div>
       </TerminalBox>
     </div>

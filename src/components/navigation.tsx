@@ -27,8 +27,7 @@ export function Navigation() {
                 : "text-amber-dim hover:text-amber"
             }`}
           >
-            <span className="text-amber-dim">&gt;</span>{" "}
-            {item.label}
+            <span className="text-amber-dim">&gt;</span> {item.label}
             {isActive && (
               <span className="ml-1">
                 <BlinkingCursor />

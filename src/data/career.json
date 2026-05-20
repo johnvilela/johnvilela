@@ -1,30 +1,44 @@
 [
   {
-    "company": "TechCorp Inc.",
-    "role": "Senior Software Engineer",
-    "startDate": "2022-03",
-    "endDate": "present",
-    "description": "Leading frontend architecture and developing high-performance web applications. Driving adoption of modern frameworks and establishing best practices across the engineering team."
-  },
-  {
-    "company": "Digital Solutions Ltd.",
+    "company": "GSW Software",
     "role": "Full Stack Developer",
-    "startDate": "2019-06",
-    "endDate": "2022-02",
-    "description": "Built and maintained scalable web applications serving thousands of daily users. Implemented CI/CD pipelines and improved deployment workflows, reducing release cycles by 40%."
+    "startDate": "2023-08",
+    "endDate": "present",
+    "description": "Embraer enterprise e-commerce platform (commercial, executive, defense aviation). MEAN stack across a multi-repo environment with Angular, Node.js, Express, MongoDB, and TypeScript. Optimized SQL queries and backend data flows for business-critical operations. Production support: incident investigation, root-cause analysis, live fixes. Contributing to an AI chatbot project using Mastra and modern LLM-based tooling."
   },
   {
-    "company": "StartupHub",
+    "company": "Freelance",
+    "role": "Full-stack Developer",
+    "startDate": "2017-05",
+    "endDate": "present",
+    "description": "Currently building Motolink — internal operations platform for a logistics company managing clients, riders, shifts, payments, and workflows (Next.js, TypeScript, Prisma, PostgreSQL) that replaced an unstable legacy system. Past work: React Native app with 10,000 daily users + Firebase; CBHG (Brazilian Field and Indoor Hockey Confederation) national system rewrite for speed and security with Next.js + Postgres; +43% site traffic via SEO improvements."
+  },
+  {
+    "company": "Levilo",
     "role": "Frontend Developer",
-    "startDate": "2017-01",
-    "endDate": "2019-05",
-    "description": "Developed responsive user interfaces for multiple client projects. Introduced component-based architecture and automated testing, improving code reliability and team velocity."
+    "startDate": "2020-09",
+    "endDate": "2023-06",
+    "description": "Web and hybrid mobile applications end-to-end: requirements, prototyping, UI, App Store and Play Store deployment. Cut site load time to 350ms (smaller bundles, caching, lazy load). Reduced application costs 82% by replacing paid API features. Azure staging and production environments, unit and E2E tests, CI/CD on Azure DevOps."
   },
   {
-    "company": "WebAgency Co.",
-    "role": "Junior Developer",
-    "startDate": "2015-03",
-    "endDate": "2016-12",
-    "description": "Created websites and web applications for small to medium businesses. Worked closely with design teams to deliver pixel-perfect implementations within tight deadlines."
+    "company": "DUEE BRASIL",
+    "role": "Full-stack Developer",
+    "startDate": "2018-08",
+    "endDate": "2020-06",
+    "description": "Promotional websites for brands including Starbucks and Faxe beer. Internal tooling to streamline workflow management. Recommended and helped roll out CI/CD for internal and external projects."
+  },
+  {
+    "company": "ATLAS INOVAÇÕES",
+    "role": "Frontend Developer",
+    "startDate": "2017-05",
+    "endDate": "2018-07",
+    "description": "Web applications with AngularJS. Engineered CI/CD pipelines on Heroku — automated testing, build, and deploy."
+  },
+  {
+    "company": "EXLA - Software Estratégico",
+    "role": "Frontend Developer",
+    "startDate": "2014-07",
+    "endDate": "2017-01",
+    "description": "Web and hybrid mobile apps with AngularJS and Ionic. Owned requirements gathering, prototyping, and UI design stages."
   }
 ]

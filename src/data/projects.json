@@ -1,56 +1,78 @@
 [
   {
-    "name": "Cloud Dashboard",
-    "year": 2025,
-    "description": "Real-time cloud infrastructure monitoring dashboard with interactive metrics visualization and alerting system.",
-    "techStack": ["Next.js", "TypeScript", "D3.js", "WebSocket"]
+    "name": "Motolink",
+    "startDate": "2025-12",
+    "endDate": "present",
+    "description": "Logistics operations platform managing clients, delivery riders, work shifts, payment requests, and operational workflows in one centralized system. Improves visibility, cuts manual work, and gives the business more control over delivery operations.",
+    "techStack": [
+      "Next.js",
+      "TypeScript",
+      "Prisma",
+      "PostgreSQL",
+      "Tailwind CSS"
+    ]
   },
   {
-    "name": "DevFlow CLI",
-    "year": 2024,
-    "description": "Command-line tool for automating development workflows, including project scaffolding, code generation, and deployment pipelines.",
-    "techStack": ["Node.js", "TypeScript", "Commander.js"]
+    "name": "Aeras",
+    "startDate": "2022-04",
+    "endDate": "present",
+    "description": "Air conditioning management app with maintenance plans and control notifications. The Aeras Assist module connects users to nearby technicians or companies for maintenance. Includes a view for service companies and technicians to manage PMOCs across multiple clients.",
+    "techStack": ["NestJS", "Next.js", "Flutter", "Node.js"]
   },
   {
-    "name": "Marketplace Platform",
-    "year": 2023,
-    "description": "Full-featured e-commerce marketplace with real-time inventory management, payment processing, and seller analytics.",
-    "techStack": ["React", "Node.js", "PostgreSQL", "Stripe"]
+    "name": "Sistema de votação online CBHG",
+    "startDate": "2020-01",
+    "endDate": "present",
+    "description": "Online voting platform for CBHG (Brazilian Field and Indoor Hockey Confederation). Athletes vote for federation representatives every two years through an agile, secure, and transparent flow.",
+    "techStack": ["Next.js 13", "Firebase"]
   },
   {
-    "name": "TaskBoard",
-    "year": 2021,
-    "description": "Collaborative project management tool with drag-and-drop kanban boards, real-time updates, and team workspaces.",
-    "techStack": ["React", "Firebase", "Tailwind CSS"]
+    "name": "Supply Marine Management",
+    "startDate": "2020-01",
+    "endDate": "present",
+    "description": "Internal platform for a specialized company — employee management, daily work reports, customer and asset management, plus PMOC modules. Served as the inspiration for Aeras.",
+    "techStack": ["VueJS", "Node.js", "PostgreSQL"]
   },
   {
-    "name": "HealthTrack API",
-    "year": 2020,
-    "description": "RESTful API for health and fitness tracking applications with data aggregation from multiple wearable devices.",
-    "techStack": ["Node.js", "Express", "MongoDB", "JWT"]
+    "name": "SIGH",
+    "startDate": "2022-08",
+    "endDate": "2023-01",
+    "description": "Athlete and club management system for CBHG. Tracks athlete status and handles transfers between clubs. Hosted on Heroku — essential tool for CBHG operations.",
+    "techStack": ["Next.js 13", "PostgreSQL", "Tailwind CSS"]
   },
   {
-    "name": "ChatConnect",
-    "year": 2018,
-    "description": "Real-time messaging application with group chats, file sharing, and end-to-end encryption.",
-    "techStack": ["React", "Socket.io", "Redis", "Node.js"]
+    "name": "Econform",
+    "startDate": "2017-12",
+    "endDate": "2018-07",
+    "description": "100% digital platform for license management and business compliance. Turns a complicated paralegal workflow into an intuitive operation: full visibility of licenses across CNPJs, lower cost, and reduced risk of fines for establishments.",
+    "techStack": ["TypeScript", "Jest"]
   },
   {
-    "name": "PhotoGallery CMS",
-    "year": 2016,
-    "description": "Content management system for photographers with image optimization, portfolio templates, and client proofing.",
-    "techStack": ["PHP", "Laravel", "MySQL", "jQuery"]
+    "name": "Troco Premiado",
+    "startDate": "2017-07",
+    "endDate": "2017-11",
+    "description": "Premium Bond platform: from R$0.01 you buy a capitalization bond. Half goes to a chosen NGO, the other half funds operations and a sweepstake of up to R$50,000 based on the federal lottery.",
+    "techStack": ["Front-End Development"]
   },
   {
-    "name": "Budget Tracker",
-    "year": 2014,
-    "description": "Personal finance management application with expense categorization, budget planning, and visual reports.",
-    "techStack": ["AngularJS", "Node.js", "MongoDB"]
+    "name": "VDireto",
+    "startDate": "2015-10",
+    "endDate": "2015-12",
+    "description": "Platform giving aldermen and mayors direct contact with voters — exposing campaign proposals and answering voter questions.",
+    "techStack": ["Node.js", "Front-End Development"]
   },
   {
-    "name": "Blog Engine",
-    "year": 2013,
-    "description": "Lightweight blogging platform with markdown support, RSS feeds, and a custom templating engine.",
-    "techStack": ["Python", "Flask", "SQLite", "Bootstrap"]
+    "name": "Civis",
+    "startDate": "2015-06",
+    "endDate": "2015-09",
+    "description": "Mobile app making communication with aldermen and mayors easier.",
+    "techStack": ["Node.js", "Front-End Development"]
+  },
+  {
+    "name": "Aluno's App",
+    "startDate": "2015-01",
+    "endDate": "2015-06",
+    "description": "Academic app for parents to monitor their children's school performance — teacher contact, attendance list, and school reports.",
+    "techStack": ["Node.js", "Front-End Development"]
   }
 ]

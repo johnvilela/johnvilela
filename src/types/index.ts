@@ -8,7 +8,8 @@ export interface CareerEntry {
 
 export interface ProjectEntry {
   name: string;
-  year: number;
+  startDate: string;
+  endDate: string;
   description: string;
   techStack: string[];
 }
